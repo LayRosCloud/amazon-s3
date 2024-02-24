@@ -1,0 +1,8 @@
+version: "3.5"
+services:
+  imageserver:
+    image: betrayal96/imageserver:0.1
+    container_name: image-server
+    ports:
+      - '8081:8081'
+    restart: unless-stopped
