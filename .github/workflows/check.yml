@@ -5,8 +5,8 @@ on:
 jobs:
   test: # название джобы
     runs-on: ubuntu-latest
-    steps:
-      - name: repo
+    steps: # Перечень шагов, которые необходимо выполнить в рамках джобы.
+      - name: cd into repo # Название шага
         uses: actions/checkout@v3
 
       - name: install java and maven
