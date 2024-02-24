@@ -1,0 +1,20 @@
+name: Check #name github action
+on: 
+  push:
+    branches: ['master']
+jobs:
+  test: # название джобы
+    runs-on: ubuntu-latest
+    steps:
+      - name: repo
+        uses: actions/checkout@v3
+
+      - name: install java and maven
+        uses: actions/setup-java@v3
+      with:
+        java-version: '17'
+        distribution: 'temurin'
+        cache: maven
+      - name: run tests
+        run: mvn test
+
