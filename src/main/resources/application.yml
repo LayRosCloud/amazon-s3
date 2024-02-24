@@ -6,6 +6,6 @@ server:
 
 spring:
     amazon:
-        key_id: YCAJEYkbA6oAa9waI2LPglZkZ
-        secret_key: YCOm3Lc8lJQesXa_a2tjNHrv5I079HIAsbr8XjSI
+        key_id: YCAJEixR0dfnT9YFCLodZcUQ4
+        secret_key: YCOyF4MTrKrZZsLyJYb3iaX6tSflGkmxLWjzjt4p
 
