@@ -4,3 +4,8 @@ server:
     servlet:
         context-path: /api
 
+spring:
+    amazon:
+        key_id: YCAJEYkbA6oAa9waI2LPglZkZ
+        secret_key: YCOm3Lc8lJQesXa_a2tjNHrv5I079HIAsbr8XjSI
+
